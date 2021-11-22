@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+nav ul li  a{
+    padding-left: 25px;
+    color:#000;
+    font-size:18px;
+
+}
+
+
+
+.user-image{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+main{
+    
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: column; /* bu kod alt alta almamızı sağlıyor*/
+    align-items: center;
+}
+
+.google-image{
+    width: 300px;
+    height: 100px;
+    object-fit: cover; /* bu ko resmin height ve width göre net durmasını sağlıyor*/
+
+}
+
+input{
+    border:1px solid rgb(68, 65, 65);
+    width: 600px;
+    padding:8px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top:5px;
+    outline: none;
+}
+
+
+.button{
+    margin-top: 15px;
+}
+
+button{
+    background-color: transparent;
+    padding:10px 20px ;
+    margin-right: 15px;
+    border-radius: 8px;
+    outline: none;
+    border:1px solid rgba(209, 209, 209, 0.63);
+    font-size: 15px;
+    background-color: rgba(209, 209, 209, 0.63);
+}
+
+
+footer{
+    
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+span{
+    margin-left:15px;
+    margin-right: 15px;
+}
+
