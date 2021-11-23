@@ -25,4 +25,4 @@
 
 ###  License 
 
-Licensed under the MIT license, see [https://github.com/batuhankole/google/blob/main/LICENSE) for details.
+Licensed under the MIT license, see [LICENSE](https://github.com/batuhanlole/google/blob/main/LICENSE) for details.
